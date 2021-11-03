@@ -3,20 +3,31 @@
     margin: auto auto;
 }
 
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.visible {
+    display: block;
+    visibility: visible;
+}
+
 #title {
     margin-top: 10px; 
     margin-bottom: 20px;
     font-weight: 600;
     text-align: center;
     color: #000;
-    font-size: 350%;
+    font-size: 250%;
 }
 
 #create {
-    border: 2px solid blue;
+    border: 5px inset #0047AB;
     border-radius: 15px;
     background: whitesmoke;
     color: black;
+    font-size: 150%;
     padding: 10px; 
     transition: all 0.2s ease 0s;
 }
@@ -38,11 +49,21 @@
 #join {
     margin-left: 20px;
     padding: 10px;
-    border: 2px solid red;
+    border: 5px outset red;
+    font-size: 150%;
     border-radius: 15px;
     background: whitesmoke;
 }
 
 #buttons {
     text-align: center;
+}
+
+#code {
+    margin: 50px;
+    text-align: center;
+    border: 10px groove grey;
+    font-size: 300%;
+    padding: 20px;
+    background: whitesmoke;
 }
