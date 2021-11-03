@@ -1,12 +1,26 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto auto;
+}
+
+#title {
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    font-size: 350%;
+}
+
 #create {
-    border: 2px solid #00FFFF;
+    border: 2px solid blue;
     border-radius: 15px;
-    background: white;
+    background: whitesmoke;
     color: black;
     padding: 10px; 
     transition: all 0.2s ease 0s;
-  }
-  
+}
+
 #create:hover {
     background: black;
     color: white;
@@ -20,10 +34,15 @@
     cursor: pointer;
     transform: translateY(3px); 
 }
-
+  
 #join {
-  margin-left: 20px;
-  padding: 10px;
-  border: 2px solid red;
-  border-radius: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background: whitesmoke;
+}
+
+#buttons {
+    text-align: center;
 }
