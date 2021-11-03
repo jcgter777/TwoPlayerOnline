@@ -1,16 +1,24 @@
 #create {
-    border: 2px solid black;
+    border: 2px solid #00FFFF;
     border-radius: 15px;
-    background: #00FFFF;
+    background: white;
+    color: black;
     padding: 10px; 
     transition: all 0.2s ease 0s;
   }
   
 #create:hover {
-    background: #0096FF;
-    color: black;
+    background: black;
+    color: white;
     cursor: pointer;
     transform: translateY(-5px); 
+}
+
+#create:active {
+    background: black;
+    color: white;
+    cursor: pointer;
+    transform: translateY(3px); 
 }
 
 #join {
