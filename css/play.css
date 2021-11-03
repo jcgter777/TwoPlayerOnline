@@ -1,0 +1,33 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto auto;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.visible {
+    display: block;
+    visibility: visible;
+}
+
+#navbar {
+    margin: 10px;
+}
+
+.nav {
+    padding: 10px;
+    font-weight: 100;
+    color: #0047AB;
+    background: white;
+    font-size: 125%;
+    text-decoration: none;
+    border: 1px hidden;
+}
+
+.nav:hover {
+    background: #ADD8E6;
+    cursor: pointer;
+}
