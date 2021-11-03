@@ -15,13 +15,19 @@
     visibility: visible;
 }
 
-#title {
-    margin-top: 10px; 
+.nav {
+    padding: 10px;
     margin-bottom: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #000;
-    font-size: 250%;
+    font-weight: 100;
+    color: #0047AB;
+    background: white;
+    font-size: 125%;
+    border: 1px hidden;
+}
+
+.nav:hover {
+    background: #ADD8E6;
+    cursor: pointer;
 }
 
 #create {
