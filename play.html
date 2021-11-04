@@ -13,13 +13,11 @@
     <div id="navbar">
     <a class="nav" id="title" href="index.html">Two Player Online</a>
         <a class="nav" href="about.html">About</a>
+        <mono id="session"></mono>
     </div>
-    <div id="test">
-
-    </div>
-    <div id="game">
-        <div onclick="start()">TEST</div>
-        <canvas>Error: Canvas unable to load.</canvas>
+    <div id="test"></div>
+    <div id="canvas">
+        <canvas id="game" onclick="recPresses()" onfocus="recClicks()">Error: Canvas unable to load.</canvas>
     </div>
 </body>
 </html>

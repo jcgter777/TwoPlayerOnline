@@ -2,9 +2,7 @@
     font-family: 'Ubuntu', sans-serif;
     margin: auto auto;
 }
-/*body {
-    background-color: #1434A4;
-}*/
+
 .hidden {
     display: none;
     visibility: hidden;
@@ -69,13 +67,4 @@
 
 #buttons {
     text-align: center;
-}
-
-#code {
-    margin: 50px;
-    text-align: center;
-    border: 10px groove grey;
-    font-size: 300%;
-    padding: 20px;
-    background: whitesmoke;
 }
