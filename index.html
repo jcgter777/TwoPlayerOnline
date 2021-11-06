@@ -15,8 +15,10 @@
     <a class="nav" href="about.html">About</a>
   </div>
   <div id="buttons">
-    <button id="create" onclick="genCode()">Create Session</button>
-    <input type="number" id="join" placeholder="Join Session" onkeydown="search(this)"/>
+    <button id="create" >Create Session</button>
+      <form action="/sessions/join" method="post" id="inputID">
+        <input type="number" id="join" name="id" placeholder="Join Session">
+      </form>
   </div>
   <div id="code" class="hidden"></div>
 </body>
